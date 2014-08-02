@@ -1,9 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+/*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 body {
 	background-color: #fefefe;
-    font-family: "Lato";
+    /*font-family: "Lato";*/
+    font-family: "Open Sans";
     font-weight: 300;
     font-size: 16px;
     color: #222;
@@ -88,12 +90,15 @@ hr {
     background: #ffffff;
 	/*border-color: #2d2d2d;*/
 	border-color: #ccc;
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+    -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+    box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
 }
 
 .navbar-inverse .navbar-brand {
     height: 48px;
     width: 106px;
-    background: url(../img/tcm_final.jpg) no-repeat
+    background: url(../img/tcm.jpg) no-repeat
 }
 
 .navbar-inverse .navbar-brand i {
@@ -111,7 +116,7 @@ hr {
 }
 
 #headerwrap {
-	background: url(../img/stocks_dark.jpg) no-repeat center top;
+    background: url(../img/speed-dark.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -149,15 +154,12 @@ hr {
 }
 
 #about_headerwrap {
-    background: url(../img/mission-dark.jpg) no-repeat center top;
-    margin-top: -10px;
-    padding-top:20px;
+    background: url(../img/Group_photo_main.jpg) no-repeat center top;
     text-align:center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 500px;
+    min-height: 700px;
     width: 100%;
-    /*opacity: 0.7;*/
     
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -171,13 +173,13 @@ hr {
 }
 
 #apply_headerwrap {
-    background: url(../img/business.jpg) no-repeat center top;
+    background: url(../img/handshake.jpg) no-repeat center top; /*handshake3*/
     margin-top: -10px;
     padding-top:20px;
     text-align:center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 500px;
+    min-height: 450px;
     width: 100%;
     /*opacity: 0.7;*/
     
@@ -192,23 +194,58 @@ hr {
     background-size: cover;
 }
 
-#f_home {
-	border-top: 1px solid #ddd;
-	padding-top: 30px;
-	font-weight: 300;
-	font-size: 14px;
-	background-color: #eee;
+#investors_headerwrap {
+    background: url(../img/stocks_dark_shrink.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top:20px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 400px;
+    width: 100%;
+    /*opacity: 0.7;*/
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#contact_headerwrap {
+    background: url(../img/pu4.jpg) no-repeat center top;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 475px;
+    width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #f {
-	border-top: 1px solid #ddd;
-	padding-top: 30px;
+    border-top: 1px solid #ccc;
+	padding-top: 20px;
 	font-weight: 300;
 	font-size: 14px;
+    background-color: #444; /*#f6f6f6; #eee;*/
+    color: #fff;
+    /*-moz-box-shadow: 0 -2px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 -2px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 -2px 1px rgba(0,0,0,0.5);*/
 }
-/*.navbar #f {
-	background-color: #fefefe;
-}*/
 
 .w {
 	padding-top: 35px;
@@ -235,12 +272,28 @@ hr {
     1px 1px 0 #000;  
 }
 
-.team img {
-	margin-top: 55px;
+.team {
+	/*margin-top: 55px;*/
+    cursor: pointer;
+}
+
+.team-block img {
+    border: 1px solid white;
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.team-header {
+    text-align: center;
 }
 
 .seperator {
 	border-top: 1px solid #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 /*h2 .pad-top {
