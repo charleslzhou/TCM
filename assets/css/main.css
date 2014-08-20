@@ -273,7 +273,6 @@ hr {
 }
 
 .team {
-	/*margin-top: 55px;*/
     cursor: pointer;
 }
 
@@ -296,14 +295,14 @@ hr {
     display: block;
 }
 
-/*h2 .pad-top {
-    padding-top: 10px;
-}*/
-
 .pad-top {
     padding-top: 18px;
 }
 
 .pad-top5 {
     padding-top: 5px;
+}
+
+.modal-body {
+    font-size: 14px;
 }
