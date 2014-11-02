@@ -1,231 +1,273 @@
-<!DOCTYPE html>
+f<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Tiger Capital Management</title>
+	<title>Tiger Capital Management</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="assets/css/main.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	<![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li class="active"><a href="team.html">PEOPLE</a></li>
-            <li><a href="investors.html">INVESTORS</a></li>
-            <li><a href="apply.html">APPLY</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
-    <div class="container w">
-      <h1 class="team-header">Partners</h1>
-      <div class="row-fluid team-block">
-	<div class="span1"></div>
-	<div class="span2 team">
-	  <a data-toggle="modal" data-target="#charles-bio">
-	    <img src="./assets/img/Charles_Zhou.jpg">
-	    <p><h4>Charles Zhou</h4>
-	      <h5><em>Chief Executive Officer and Vice President, Consumer Prod.</em></h5></p>
-	  </a>
-	</div>
-	<div class="modal fade" id="charles-bio" tabindex="-1" role="dialog" aria-labelledby="charlesModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-		<h4 class="modal-title" id="myModalLabel">Charles Zhou</h4>
-		<h5>Chief Executive Officer and Vice President, Consumer Prod.</h5>
-	      </div>
-	      <div class="modal-body">
-		Charles is a junior from Plainsboro, NJ, majoring in Operations Research and Financial Engineering with Finance and Computer Science certificates at Princeton. He first started investing in 2012 and has been learning about the field ever since. He spent his summer of 2013 at BNY Mellon and will spend his summer of 2014 at PRINCO and UBS.
-	      </div>
-	    </div>
-	  </div>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">HOME</a></li>
+		            <li class="dropdown"><a href="about.html">ABOUT<b class="caret"></b></a>
+		              <ul class="dropdown-menu">
+		                <li><a href="about.html#mission">Our Mission</a></li>
+		                <li><a href="about.html#focus">Our Focus</a></li>
+		                <li><a href="about.html#approach">Our Approach</a></li>
+		                <li><a href="about.html#history">Our History</a></li>
+		              </ul>
+		            </li>					
+					<li class="active"><a href="team.html">PEOPLE</a></li>
+					<li><a href="investors.html">INVESTORS</a></li>
+					<li><a href="apply.html">APPLY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
 	</div>
 
-	<div class="span2 team">
-	  <a data-toggle="modal" data-target="#dean-bio">
-	    <img src="./assets/img/Dean_Makino.jpg">
-	    <p><h4>Dean Makino</h4>
-	      <h5><em>Chief Investment Officer and Vice President, Foreign Markets</em></h5></p>
-	  </a>
-	</div>
-	<div class="modal fade" id="dean-bio" tabindex="-1" role="dialog" aria-labelledby="deanModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-		<h4 class="modal-title" id="myModalLabel">Dean Makino</h4>
-		<h5>Chief Investment Officer and Vice President, Foreign Markets</h5>
-	      </div>
-	      <div class="modal-body">
-		Dean is a senior from Weston, MA, majoring in Economics with Finance and Computer Science certificates at Princeton. He made his first investment in 2006, and has actively managed his own portfolio since 2011. He spent his summer of 2013 working at a deep value hedge fund in Mumbai, India, and will spend his summer of 2014 at Eaton Vance in Boston.
-	      </div>
-	    </div>
-	  </div>
-	</div>
+	<div class="container w">
+		<h1 class="team-header">Partners</h1>
+		<div class="row-fluid team-block">
+			<div class="span1"></div>
+			<div class="span2 team">
+				<a data-toggle="modal" data-target="#charles-bio">
+					<img src="./assets/img/Charles_Zhou.jpg" title="View bio">
+					<p><h4>Charles Zhou</h4>
+						<h5><em>Chief Executive Officer and Vice President, Head of Consumer Group</em></h5></p>
+					</a>
+				</div>
+				<div class="modal fade" id="charles-bio" tabindex="-1" role="dialog" aria-labelledby="charlesModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+								<h4 class="modal-title" id="myModalLabel">Charles Zhou</h4>
+								<h5>Chief Executive Officer and Vice President, Head of Consumer Group</h5>
+							</div>
+							<div class="modal-body">
+								<div class="row">
+									<div class="span3 modal-image"><img src="./assets/img/Charles_Zhou.jpg"></div>
+									<div class="span8">
+										Charles is a junior from Plainsboro, NJ, majoring in Operations Research and Financial Engineering with Finance and Computer Science certificates at Princeton. He first started investing in 2012 and has been learning about the field ever since. He spent his summer of 2013 at BNY Mellon and will spend his summer of 2014 at PRINCO and UBS.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-	<div class="span2 team">
-	  <a data-toggle="modal" data-target="#andrew-bio">
-	    <img src="./assets/img/Andrew_Barnett.jpg">
-	    <p><h4>Andrew Barnett</h4>
-              <h5><em>Vice President, Industrials</em></h5></p>
-	  </a>
-	</div>
-	<div class="modal fade" id="andrew-bio" tabindex="-1" role="dialog" aria-labelledby="andrewModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-		<h4 class="modal-title" id="myModalLabel">Andrew Barnett</h4>
-		<h5>Vice President, Industrials</h5>
-	      </div>
-	      <div class="modal-body">
-		Andrew is a senior from Saline, MI, majoring in Economics with Finance, Statistics, Machine Learning, and Computer Science certificates at Princeton. He first started investing in 2012 and has been learning everything he can about investing since then. He spent his summer of 2012 working at a web design start-up and has worked at PRINCO since 2013, first as an operations intern and this summer as a summer analyst.
-	      </div>
-	    </div>
-	  </div>
-	</div>
+				<div class="span2 team">
+					<a data-toggle="modal" data-target="#dean-bio">
+						<img src="./assets/img/Dean_Makino.jpg" title="View bio">
+						<p><h4>Dean Makino</h4>
+							<h5><em>Chief Investment Officer and Vice President, Head of Global Group</em></h5></p>
+						</a>
+					</div>
+					<div class="modal fade" id="dean-bio" tabindex="-1" role="dialog" aria-labelledby="deanModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+									<h4 class="modal-title" id="myModalLabel">Dean Makino</h4>
+									<h5>Chief Investment Officer and Vice President, Head of Global Group</h5>
+								</div>
+								<div class="modal-body">
+									<div class="row">
+										<div class="span3 modal-image"><img src="./assets/img/Dean_Makino.jpg"></div>
+										<div class="span8">
+											Dean is a senior from Weston, MA, majoring in Economics with Finance and Computer Science certificates at Princeton. He made his first investment in 2006, and has actively managed his own portfolio since 2011. He spent his summer of 2013 working at a deep value hedge fund in Mumbai, India, and will spend his summer of 2014 at Eaton Vance in Boston.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
-	<div class="span2 team">
-	  <a data-toggle="modal" data-target="#alex-bio">
-	    <img src="./assets/img/Alex_Sen.jpg">
-	    <p><h4>Alexander Sen</h4>
-              <h5><em>Vice President, Information Technology</em></h5></p>
-	  </a>
-	</div>
-	<div class="modal fade" id="alex-bio" tabindex="-1" role="dialog" aria-labelledby="alexModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-		<h4 class="modal-title" id="myModalLabel">Alexander Sen</h4>
-		<h5>Vice President, Information Technology</h5>
-	      </div>
-	      <div class="modal-body">
-		Alex is a junior from London, UK, majoring in Molecular Biology at Princeton. He first started investing in 2012, and since then has managed a small portfolio in his spare time. He spent his summer of 2012 at Fidelity, spent his summer of 2013 at the boutique investment bank KBW, and will spend his summer of 2014 at Blackstone.
-	      </div>
-	    </div>
-	  </div>
-	</div>
+					<div class="span2 team">
+						<a data-toggle="modal" data-target="#andrew-bio">
+							<img src="./assets/img/Andrew_Barnett.jpg" title="View bio">
+							<p><h4>Andrew Barnett</h4>
+								<h5><em>Vice President, Head of TMT Group</em></h5></p>
+							</a>
+						</div>
+						<div class="modal fade" id="andrew-bio" tabindex="-1" role="dialog" aria-labelledby="andrewModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+										<h4 class="modal-title" id="myModalLabel">Andrew Barnett</h4>
+										<h5>Vice President, Head of TMT Group</h5>
+									</div>
+									<div class="modal-body">
+										<div class="row">
+											<div class="span3 modal-image"><img src="./assets/img/Andrew_Barnett.jpg"></div>
+											<div class="span8">
+												Andrew is a senior from Saline, MI, majoring in Economics with Finance, Statistics, Machine Learning, and Computer Science certificates at Princeton. He first started investing in 2012 and has been learning everything he can about investing since then. He spent his summer of 2012 working at a web design start-up and has worked at PRINCO since 2013, first as an operations intern and this summer as a summer analyst.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-	<div class="span2 team">
-	  <a data-toggle="modal" data-target="#charlie-bio">
-	    <img src="./assets/img/Charlie_Argon.jpg">
-	    <p><h4>Charlie Argon</h4>
-              <h5><em>Vice President, Health Care</em></h5></p>
-	  </a>
-	</div>
-	<div class="modal fade" id="charlie-bio" tabindex="-1" role="dialog" aria-labelledby="charlieModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-		<h4 class="modal-title" id="myModalLabel">Charlie Argon</h4>
-		<h5>Vice President, Health Care</h5>
-	      </div>
-	      <div class="modal-body">
-		Charlie is a sophomore from Arlington, VA, majoring in East Asian Studies at Princeton. He started investing in mutual funds around 2005, and entered the stock market in 2008. Additionally, he has written research reports for SeekingAlpha, and ran his high school investing club. He will spend his summer of 2014 in the Princeton in Beijing Program.
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	<div class="span1"></div>
-      </div>
-      <h1 class="team-header">Analysts</h1>
-      <div class="row-fluid team-block">
-	<div class="span3"></div>
-	<div class="span2 team">
-	  <a data-toggle="modal" data-target="#ankit-bio">
-	    <img src="./assets/img/Ankit_Sarkar.jpg">
-	    <p><h4>Ankit Sarkar</h4>
-              <h5><em>Senior Analyst</em></h5></p>
-	  </a>
-	</div>
-	<div class="modal fade" id="ankit-bio" tabindex="-1" role="dialog" aria-labelledby="ankitModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-		<h4 class="modal-title" id="myModalLabel">Ankit Sarkar</h4>
-		<h5>Senior Analyst</h5>
-	      </div>
-	      <div class="modal-body">
-		Ankit is a sophomore from North Potomac, MD, majoring in Economics with Finance and Computer Science certificates at Princeton. He started gaining exposure to investing in 2011, and began his own personal portfolio in 2013. He spent his summers of 2011 - 2013 at Montgomery Investment Management, and will spend his summer of 2014 at Morgan Stanley.
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	<div class="span2 team">
-	  <a data-toggle="modal" data-target="#jordan-bio">
-	    <img src="./assets/img/placeholder.jpg">
-	    <p><h4>Jordan Myers</h4>
-	      <h5><em>Senior Analyst</em></h5></p>
-	  </a>
-	</div>
-	<div class="modal fade" id="jordan-bio" tabindex="-1" role="dialog" aria-labelledby="jordanModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-		<h4 class="modal-title" id="myModalLabel">Jordan Myers</h4>
-		<h5>Senior Analyst</h5>
-	      </div>
-	      <div class="modal-body">
-		Jordan is a junior from Durham, NC, majoring in Operations Research and Financial Engineering with a Computer Science certificate at Princeton. He spent his summer of 2013 at Duke Translational Research Institute performing data analysis. He will spend his summer of 2014 improving computational efficiency at the Institute of Pure and Applied Mathematics in Rio de Janeiro.
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	<div class="span3"></div>
-      </div>
-    </div>
+						<div class="span2 team">
+							<a data-toggle="modal" data-target="#alex-bio">
+								<img src="./assets/img/Alex_Sen.jpg" title="View bio">
+								<p><h4>Alexander Sen</h4>
+									<h5><em>Vice President, Head of Health Care Group</em></h5></p>
+								</a>
+							</div>
+							<div class="modal fade" id="alex-bio" tabindex="-1" role="dialog" aria-labelledby="alexModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+											<h4 class="modal-title" id="myModalLabel">Alexander Sen</h4>
+											<h5>Vice President, Head of Health Care Group</h5>
+										</div>
+										<div class="modal-body">
+											<div class="row">
+												<div class="span3 modal-image"><img src="./assets/img/Alex_Sen.jpg"></div>
+												<div class="span8">
+													Alex is a junior from London, UK, majoring in Molecular Biology at Princeton. He first started investing in 2012, and since then has managed a small portfolio in his spare time. He spent his summer of 2012 at Fidelity, spent his summer of 2013 at the boutique investment bank KBW, and will spend his summer of 2014 at Blackstone.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 
-    <!-- FOOTER -->
-    <div id="f">
-      <div class="container">
-	<div class="row centered">
-	  <p>&copy; 2014 Tiger Capital Management LLP. <span class="subtext">Tiger Capital Management is not affiliated with or endorsed by Princeton University</span></p>
+							<div class="span2 team">
+								<a data-toggle="modal" data-target="#charlie-bio">
+									<img src="./assets/img/Charlie_Argon.jpg" title="View bio">
+									<p><h4>Charlie Argon</h4>
+										<h5><em>Vice President, Joint Head of Industrials Group</em></h5></p>
+									</a>
+								</div>
+								<div class="modal fade" id="charlie-bio" tabindex="-1" role="dialog" aria-labelledby="charlieModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="myModalLabel">Charlie Argon</h4>
+												<h5>Vice President, Joint Head of Industrials Group</h5>
+											</div>
+											<div class="modal-body">
+												<div class="row">
+													<div class="span3 modal-image"><img src="./assets/img/Charlie_Argon.jpg"></div>
+													<div class="span8">
+														Charlie is a sophomore from Arlington, VA, majoring in East Asian Studies at Princeton. He started investing in mutual funds around 2005, and entered the stock market in 2008. Additionally, he has written research reports for SeekingAlpha, and ran his high school investing club. He will spend his summer of 2014 in the Princeton in Beijing Program.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="span1"></div>
+							</div>
+							<h1 class="team-header">Analysts</h1>
+							<div class="row-fluid team-block">
+								<div class="span3"></div>
+								<div class="span2 team">
+									<a data-toggle="modal" data-target="#ankit-bio">
+										<img src="./assets/img/Ankit_Sarkar.jpg" title="View bio">
+										<p><h4>Ankit Sarkar</h4>
+											<h5><em>Senior Analyst, Head of Energy Group</em></h5></p>
+										</a>
+									</div>
+									<div class="modal fade" id="ankit-bio" tabindex="-1" role="dialog" aria-labelledby="ankitModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+													<h4 class="modal-title" id="myModalLabel">Ankit Sarkar</h4>
+													<h5>Senior Analyst, Head of Energy Group</h5>
+												</div>
+												<div class="modal-body">
+													<div class="row">
+														<div class="span3 modal-image"><img src="./assets/img/Ankit_Sarkar.jpg"></div>
+														<div class="span8">
+															Ankit is a sophomore from North Potomac, MD, majoring in Economics with Finance and Computer Science certificates at Princeton. He started gaining exposure to investing in 2011, and began his own personal portfolio in 2013. He spent his summers of 2011 - 2013 at Montgomery Investment Management, and will spend his summer of 2014 at Morgan Stanley.
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="span2 team">
+										<a data-toggle="modal" data-target="#jordan-bio">
+											<img src="./assets/img/placeholder.jpg" title="View bio">
+											<p><h4>Jordan Myers</h4>
+												<h5><em>Senior Analyst, Joint Head of Industrials Group</em></h5></p>
+											</a>
+										</div>
+										<div class="modal fade" id="jordan-bio" tabindex="-1" role="dialog" aria-labelledby="jordanModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+														<h4 class="modal-title" id="myModalLabel">Jordan Myers</h4>
+														<h5>Senior Analyst, Joint Head of Industrials Group</h5>
+													</div>
+													<div class="modal-body">
+														<div class="row">
+															<div class="span3 modal-image"><img src="./assets/img/placeholder.jpg"></div>
+															<div class="span8">
+																Jordan is a junior from Durham, NC, majoring in Operations Research and Financial Engineering with a Computer Science certificate at Princeton. He spent his summer of 2013 at Duke Translational Research Institute performing data analysis. He will spend his summer of 2014 improving computational efficiency at the Institute of Pure and Applied Mathematics in Rio de Janeiro.
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="span3"></div>
+									</div>
+								</div>
 
-	</div><!-- row -->
-      </div><!-- container -->
-    </div><!-- Footer -->
+								<!-- FOOTER -->
+								<div id="f">
+									<div class="container">
+										<div class="row centered">
+											<p>&copy; 2014 Tiger Capital Management LLP. <span class="subtext">Tiger Capital Management is not affiliated with or endorsed by Princeton University</span></p>
+
+										</div><!-- row -->
+									</div><!-- container -->
+								</div><!-- Footer -->
 
     <!-- Bootstrap core JavaScript
-	 ================================================== -->
+    ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>

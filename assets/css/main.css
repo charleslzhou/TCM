@@ -255,10 +255,10 @@ hr {
 	font-weight: 700;
 }
 
-.w i {
+/*.w i {
 	color: #ff7878;
 	font-size: 30px;
-}
+}*/
 
 .subtext {
 	font-size: 12px;
@@ -293,6 +293,8 @@ hr {
 
 .dropdown:hover .dropdown-menu {
     display: block;
+    font-family: "Raleway";
+    /*text-align: right;*/
 }
 
 .pad-top {
@@ -305,4 +307,17 @@ hr {
 
 .modal-body {
     font-size: 14px;
+}
+
+.modal-image img {
+    margin-top: 5px;
+    padding-left: 20px;
+    border: none;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -65px;
+    visibility: hidden;
 }
