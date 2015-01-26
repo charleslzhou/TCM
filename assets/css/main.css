@@ -120,7 +120,7 @@ hr {
 }
 
 #headerwrap {
-    background: url(../img/speed-dark.jpg) no-repeat center top;
+    background: url(../img/pu4.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -142,11 +142,12 @@ hr {
 }
 
 #headerwrap h1 {
-	margin-top: 150px;
+	margin-top: 400px;
 	color: white;
-	font-size: 56px;
-	font-weight: 300;
-	letter-spacing: 3px;
+	font-size: 45px;
+	font-family: Helvetica;
+	font-weight: 400;
+	letter-spacing: 2px;
 }
 
 #headerwrap h2 {
@@ -198,11 +199,11 @@ hr {
 }
 
 #investors_headerwrap {
-    background: url(../img/stocks_dark_shrink.jpg) no-repeat center top;
-    margin-top: -10px;
-    padding-top:20px;
+    background: url(../img/Tiger_Statue.jpg);
+    margin-top: -10px
+    padding-top: 20px;
     text-align:center;
-    background-attachment: relative;
+    background-attachment: relative
     background-position: center center;
     min-height: 400px;
     width: 100%;
