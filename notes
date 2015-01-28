@@ -3,3 +3,28 @@ zhouzhou
 
 tigercapital
 zhouzhou
+
+
+After making changes, run
+	git status
+to see what files you've modified/added/deleted.
+	git add .
+adds all the files you changed
+	git add -u
+removes from git all files you deleted.
+	git commit -m "Message here"
+	git push heroku master
+
+	<h3>Investment Philosophy</h3>
+            <p class="pad-top">Our primary investment objective is to learn about investing. In pursuit of this 
+            objective, we maintain a concentrated portfolio of small and mid cap companies, 
+            which enables us to gain an edge and have a deep understanding of all our 
+            holdings.</p><br>
+
+            <h3>Investment Process</h3>
+            <p class="pad-top">We take advantage of our academic background and our distance from Wall 
+            Street noise to take a research-intensive approach to investing. Our fund sources 
+            its ideas from six internal research groups, Global, Industrials, Consumer, Energy, 
+            Healthcare, and Technology, led by the fund’s partners. Each investment idea 
+            undergoes a rigorous two-stage process that includes an initial pitch and 
+            investment note, followed by a discussion of entry/exit strategy.</p><br>
