@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+ @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 body {
@@ -120,7 +120,7 @@ hr {
 }
 
 #headerwrap {
-    background: url(../img/Title.jpg) no-repeat center top;
+    background: url(../img/titles.jpg) no-repeat center top;
     text-align:center;
     background-attachment: relative;
     background-position: center center;
@@ -181,7 +181,7 @@ hr {
     text-align:center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 475px;
+    min-height: 500px;
     width: 100%;
     
     -webkit-background-size: 100%;
@@ -201,7 +201,7 @@ hr {
     padding-top: 20px;
     text-align:center;
     background-position: center center;
-    min-height: 475px;
+    min-height: 500px;
     width: 100%;
     
     -webkit-background-size: 100%;
@@ -220,7 +220,7 @@ hr {
     text-align:center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 475px;
+    min-height: 500px;
     width: 100%;
     
     -webkit-background-size: 100%;
