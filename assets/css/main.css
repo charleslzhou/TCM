@@ -125,7 +125,7 @@ hr {
     text-align:center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 600px;
+    min-height: 650px;
     width: 100%;
     
     -webkit-background-size: 100%;
@@ -139,9 +139,9 @@ hr {
     background-size: cover;
 }
 #headerwrap h1 {
-	margin-top: 497px;
+	margin-top: 550px;
 	color: white;
-	font-size: 45px;
+	font-size: 40px;
 	font-family: "Times New Roman", Times, serif;
 	font-weight: 400;
 	letter-spacing: 2px;
@@ -237,6 +237,25 @@ hr {
 
 #contact_headerwrap {
     background: url(../img/contact.jpg) no-repeat center top;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#donate_headerwrap {
+    background: url(../img/handshake.jpg) no-repeat center top;
     text-align:center;
     background-attachment: relative;
     background-position: center center;
