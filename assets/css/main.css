@@ -120,7 +120,7 @@ hr {
 }
 
 #headerwrap {
-    background: url(../img/HOME_PICTURE_2.JPG)  no-repeat center top;
+    background: url(../img/HOME_PICTURE_2.jpg)  no-repeat center top;
     margin-top: 12px
     text-align:center;
     background-attachment: relative;
@@ -156,7 +156,7 @@ hr {
 }
 
 #about_headerwrap {
-    background: url(../img/HOME_PICTURE_3.JPG) no-repeat center top;
+    background: url(../img/HOME_PICTURE_3.jpg) no-repeat center top;
     margin-top: 12px
     text-align:center;
     background-attachment: relative;
