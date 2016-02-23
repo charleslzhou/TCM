@@ -1,0 +1,404 @@
+ @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+	background-color: #fefefe;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    color: #222;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.btn:link {
+  font-family: "Raleway";
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #f06322;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+.btn:visited
+{
+  font-family: "Raleway";
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #f06322;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  font-family: "Raleway";
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #db5416;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:active
+{
+  font-family: "Raleway";
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #db5416;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+.left-al {
+	text-align: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: #222222;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.link {
+	color: #0000cc;
+}
+
+.link:hover {
+	color: #0000ff;
+}
+
+a:hover,
+a:focus {
+    color: #222222;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -65px;
+    visibility: hidden;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: 700;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    background: #ffffff;
+	border-color: #ccc;
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+    -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+    box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+}
+
+.navbar-inverse .navbar-brand {
+    height: 48px;
+    width: 106px;
+    background: url(../img/tcm_logo.jpg) no-repeat
+}
+
+.navbar-inverse .navbar-brand i {
+	color: #ff7878;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-name {
+    height: 48px;
+    width: 144px;
+    text-align: center;
+    float: left;
+    padding-top: 5px;
+}
+
+#headerwrap {
+    background: url(../img/Home.jpg)  no-repeat center top;
+    margin-top: 12px
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#headerwrap h1 {
+	margin-top: 550px;
+	color: white;
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#about_headerwrap {
+    background: url(../img/Team.jpg) no-repeat center top;
+    margin-top: 12px
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#philosophy_headerwrap {
+    background: url(../img/PARTNERS.JPG) no-repeat center top;
+    margin-top: 80px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#apply_headerwrap {
+    background: url(../img/Apply.jpg) no-repeat center top; /*handshake3*/
+    margin-top: -10px;
+    padding-top:20px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#education_headerwrap {
+    background: url(../img/Education.jpg) no-repeat center top;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#donate_headerwrap {
+    background: url(../img/Donate.jpg) no-repeat center top;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#f {
+    border-top: 1px solid #ccc;
+	padding-top: 20px;
+	font-weight: 300;
+	font-size: 14px;
+    background-color: #444;
+    color: #fff;
+}
+
+.w {
+	padding-top: 35px;
+}
+
+.w h4 {
+	font-weight: 700;
+}
+
+.subtext {
+	font-size: 12px;
+}
+
+#txt_overlay {
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.team {
+    cursor: pointer;
+}
+
+.team-block img {
+    border: 1px solid white;
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.team-header {
+    text-align: center;
+}
+
+.seperator {
+	border-top: 1px solid #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    font-family: "Raleway";
+    /*text-align: right;*/
+}
+
+.pad-top {
+    padding-top: 18px;
+}
+
+.pad-top5 {
+    padding-top: 5px;
+}
+
+.modal-body {
+    font-size: 14px;
+}
+
+.modal-image img {
+    margin-top: 5px;
+    padding-left: 20px;
+    border: none;
+}
+
+
+.register {
+    -moz-box-shadow: 3px 4px 0px 0px #899599;
+    -webkit-box-shadow: 3px 4px 0px 0px #899599;
+    box-shadow: 3px 4px 0px 0px #899599;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+    background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+    background-color:#ededed;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#FFA500;
+    font-family:Arial;
+    font-size:17px;
+    font-weight: bold;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+}
+.register:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+    background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+    background-color:#bab1ba;
+}
