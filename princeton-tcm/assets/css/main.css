@@ -10,8 +10,8 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    
-    
+
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -131,6 +131,10 @@ hr {
 	padding-bottom: 15px;
 }
 
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #000;
+}
+
 .navbar-inverse {
     background: #ffffff;
 	border-color: #ccc;
@@ -167,7 +171,7 @@ hr {
     background-position: center center;
     min-height: 600px;
     width: 100%;
-    
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -203,7 +207,7 @@ hr {
     background-position: center center;
     min-height: 600px;
     width: 100%;
-    
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -223,7 +227,7 @@ hr {
     background-position: center center;
     min-height: 600px;
     width: 100%;
-    
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -243,7 +247,7 @@ hr {
     background-position: center center;
     min-height: 500px;
     width: 100%;
-    
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -262,7 +266,7 @@ hr {
     background-position: center center;
     min-height: 500px;
     width: 100%;
-    
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -281,7 +285,7 @@ hr {
     background-position: center center;
     min-height: 500px;
     width: 100%;
-    
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -319,7 +323,7 @@ hr {
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    1px 1px 0 #000;
 }
 
 .team {
