@@ -146,7 +146,8 @@ hr {
 .navbar-inverse .navbar-brand {
     height: 48px;
     width: 106px;
-    background: url(../img/tcm_logo.jpg) no-repeat
+    background: url(../img/tcm_logo.png) no-repeat
+    background-size: 48px 106px;
 }
 
 .navbar-inverse .navbar-brand i {
