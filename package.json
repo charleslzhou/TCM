@@ -2,7 +2,9 @@
   "name": "tcm",
   "version": "0.0.1",
   "dependencies": {
-    "express": "3.3.x"
+    "ejs": "^2.4.1",
+    "express": "3.3.x",
+    "serve-static": "^1.10.2"
   },
   "engines": {
     "node": "0.10.x",
