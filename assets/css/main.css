@@ -406,3 +406,9 @@ hr {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
     background-color:#bab1ba;
 }
+
+.btn.apply {
+    font-size: 36px;
+    width: 200px;
+    height: auto;
+}
